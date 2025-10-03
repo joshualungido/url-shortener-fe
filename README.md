@@ -1,12 +1,89 @@
-# React + Vite
+# Jetly Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Jetly is a Bitly-inspired URL shortener.
+This repository contains the **frontend application** built with **React** and **React Router**, providing an intuitive UI for managing shortened URLs.
 
-Currently, two official plugins are available:
+The frontend is hosted on **Netlify** and communicates with the [Jetly Backend](https://github.com/yourusername/jetly-backend).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Try it out here: [https://jetlys.netlify.app/](https://jetlys.netlify.app/)
+
+---
+
+## Features
+
+* 🌐 **URL Shortening** – easily shorten long URLs
+* 📊 **Analytics** – view total clicks and usage stats
+* 🔐 **Authentication** – login and register via JWT-secured backend
+* 🖼️ **Modern UI** – responsive design built with React
+
+---
+
+## Tech Stack
+
+* **React 18**
+* **React Router**
+* **Axios** (for API calls)
+* **Tailwind CSS / Custom Styling** (depending on your setup)
+* **Netlify** for deployment
+
+---
+
+## Setup & Installation
+
+### Prerequisites
+
+* Node.js 18+
+* npm or yarn
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/jetly-frontend.git
+   cd jetly-frontend
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Configure environment variables in `.env`:
+
+   ```env
+   REACT_APP_API_BASE_URL=https://your-backend-url.com
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. The frontend will be available at:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Deployment
+
+The frontend is hosted on **Netlify** and connected to the backend running on **Back4App** with a **Neon DB** database.
+
+---
+
+
+
+## License
+
+This project is licensed under the MIT License.
