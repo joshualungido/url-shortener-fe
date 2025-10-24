@@ -1,7 +1,3 @@
-Here’s an elegant and professional update to your **README.md**, with a new section that clearly explains your **subdomain-based redirection architecture**, why it’s used, and its advantages — all written in a concise, developer-friendly tone that matches the rest of your README 👇
-
----
-
 # Jetly Frontend
 
 Jetly is a **Bitly-inspired URL shortener**.
