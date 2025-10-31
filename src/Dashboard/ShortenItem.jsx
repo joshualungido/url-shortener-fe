@@ -25,8 +25,8 @@ const ShortenItem = ({ originalUrl, shortUrl, clickCount, createdDate }) => {
 
   const handleCopy = async () => {
     const textToCopy = `${
-      import.meta.env.VITE_REACT_FRONT_END_URL
-    }/s/${shortUrl}`;
+      import.meta.env.VITE_REACT_SUBDOMAIN
+    }/${shortUrl}`;
     try {
       await navigator.clipboard.writeText(textToCopy);
       setIsCopied(true);
